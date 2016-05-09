@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Launcher", "Launcher\Launcher.vcxproj", "{A45316C0-4DFD-4320-9556-0EDF7650A02F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Probe", "Probe\Probe.vcxproj", "{EAFAC5B1-E972-498D-99B4-8ECF5AB358DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendor", "Vendor", "{6475F3E1-BBA7-45E2-B897-48E161192D5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Detours", "Vendor\Detours\Detours.vcxproj", "{92D30DEA-E74D-4BEA-AC93-84A52F83D9E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pugi", "Vendor\pugi\pugi.vcxproj", "{C034F18D-E0EC-4754-AF69-00DDCB838B7E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "util", "util\util.vcxproj", "{94923EA1-FA4C-4CD1-A629-949DC9507A94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "Vendor\zlib\zlib.vcxproj", "{5BB24481-EC2F-4A96-9924-A4BE0279D0EE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minizip", "Vendor\minizip\minizip.vcxproj", "{1AC7D957-51D2-4724-964D-15CDAF9E5FA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A45316C0-4DFD-4320-9556-0EDF7650A02F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A45316C0-4DFD-4320-9556-0EDF7650A02F}.Debug|Win32.Build.0 = Debug|Win32
+		{A45316C0-4DFD-4320-9556-0EDF7650A02F}.Release|Win32.ActiveCfg = Release|Win32
+		{A45316C0-4DFD-4320-9556-0EDF7650A02F}.Release|Win32.Build.0 = Release|Win32
+		{EAFAC5B1-E972-498D-99B4-8ECF5AB358DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAFAC5B1-E972-498D-99B4-8ECF5AB358DF}.Debug|Win32.Build.0 = Debug|Win32
+		{EAFAC5B1-E972-498D-99B4-8ECF5AB358DF}.Release|Win32.ActiveCfg = Release|Win32
+		{EAFAC5B1-E972-498D-99B4-8ECF5AB358DF}.Release|Win32.Build.0 = Release|Win32
+		{92D30DEA-E74D-4BEA-AC93-84A52F83D9E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{92D30DEA-E74D-4BEA-AC93-84A52F83D9E6}.Debug|Win32.Build.0 = Debug|Win32
+		{92D30DEA-E74D-4BEA-AC93-84A52F83D9E6}.Release|Win32.ActiveCfg = Release|Win32
+		{92D30DEA-E74D-4BEA-AC93-84A52F83D9E6}.Release|Win32.Build.0 = Release|Win32
+		{C034F18D-E0EC-4754-AF69-00DDCB838B7E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C034F18D-E0EC-4754-AF69-00DDCB838B7E}.Debug|Win32.Build.0 = Debug|Win32
+		{C034F18D-E0EC-4754-AF69-00DDCB838B7E}.Release|Win32.ActiveCfg = Release|Win32
+		{C034F18D-E0EC-4754-AF69-00DDCB838B7E}.Release|Win32.Build.0 = Release|Win32
+		{94923EA1-FA4C-4CD1-A629-949DC9507A94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94923EA1-FA4C-4CD1-A629-949DC9507A94}.Debug|Win32.Build.0 = Debug|Win32
+		{94923EA1-FA4C-4CD1-A629-949DC9507A94}.Release|Win32.ActiveCfg = Release|Win32
+		{94923EA1-FA4C-4CD1-A629-949DC9507A94}.Release|Win32.Build.0 = Release|Win32
+		{5BB24481-EC2F-4A96-9924-A4BE0279D0EE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5BB24481-EC2F-4A96-9924-A4BE0279D0EE}.Debug|Win32.Build.0 = Debug|Win32
+		{5BB24481-EC2F-4A96-9924-A4BE0279D0EE}.Release|Win32.ActiveCfg = Release|Win32
+		{5BB24481-EC2F-4A96-9924-A4BE0279D0EE}.Release|Win32.Build.0 = Release|Win32
+		{1AC7D957-51D2-4724-964D-15CDAF9E5FA8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AC7D957-51D2-4724-964D-15CDAF9E5FA8}.Debug|Win32.Build.0 = Debug|Win32
+		{1AC7D957-51D2-4724-964D-15CDAF9E5FA8}.Release|Win32.ActiveCfg = Release|Win32
+		{1AC7D957-51D2-4724-964D-15CDAF9E5FA8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92D30DEA-E74D-4BEA-AC93-84A52F83D9E6} = {6475F3E1-BBA7-45E2-B897-48E161192D5D}
+		{C034F18D-E0EC-4754-AF69-00DDCB838B7E} = {6475F3E1-BBA7-45E2-B897-48E161192D5D}
+		{5BB24481-EC2F-4A96-9924-A4BE0279D0EE} = {6475F3E1-BBA7-45E2-B897-48E161192D5D}
+		{1AC7D957-51D2-4724-964D-15CDAF9E5FA8} = {6475F3E1-BBA7-45E2-B897-48E161192D5D}
+	EndGlobalSection
+EndGlobal
